@@ -14,7 +14,7 @@ public class SampleUnitTest {
 	LoginPage login;
 	
 	@BeforeMethod
-	public void preCondtion() {
+	public void preCondition() {
 		driver = CreateDriver.getDriverInstance();
 		login = new LoginPage(driver);
 	}

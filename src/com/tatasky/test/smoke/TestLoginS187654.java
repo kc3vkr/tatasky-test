@@ -21,7 +21,7 @@ public class TestLoginS187654 {
 	}
 	
 	@AfterMethod
-	public void postCondtion() {
+	public void postCondition() {
 		driver.close();
 	}
 	
